@@ -78,6 +78,8 @@ PATH=$AWS_AUTO_SCALING_HOME/bin:$PATH
 [[ -s "/Users/mkrieger/.rvm/scripts/rvm" ]] && source "/Users/mkrieger/.rvm/scripts/rvm"  # This loads RVM into a shell session.
  [ -x "/Applications/MacVim.app/Contents/MacOS/Vim" ] && alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
 
+source ~/pyenv/bin/cdb.sh
+
 unsetopt correct_all
 
 if [[ -n "$SSH_CLIENT"  ||  -n "$SSH2_CLIENT" ]]; then
