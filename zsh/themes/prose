@@ -3,7 +3,7 @@ function collapse_pwd {
 }
 
 function prompt_char {
-    echo "⪢"
+    echo "↝"
 }
 
 function battery_charge {
