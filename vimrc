@@ -71,7 +71,7 @@ set expandtab
 set backspace=2 " backspace behaves properly
 
 set background=dark
-colorscheme vividchalk
+colorscheme solarized
 
 map <Leader>p :call ShowPyFlakes()<CR>
 map <Leader>a :call ShowAck()<CR>
