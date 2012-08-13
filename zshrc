@@ -61,8 +61,8 @@ bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 
 export VIRTUALENV_USE_DISTRIBUTE=1
-export PATH=/Users/mkrieger/pyenv/bin:/Users/mkrieger/.bin:$PATH:~/.ec2
-export VIRTUAL_ENV=/Users/mkrieger/pyenv
+export PATH=~/pyenv/bin:~/.bin:$PATH:~/.ec2
+export VIRTUAL_ENV=~/pyenv
 
 export JAVA_HOME="$(/usr/libexec/java_home)"
 
