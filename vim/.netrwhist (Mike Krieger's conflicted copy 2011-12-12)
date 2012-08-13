@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/mkrieger/src/distillery-server/distillery/locations'
+let g:netrw_dirhist_2='/Users/mkrieger/src/distillery-server/distillery'
+let g:netrw_dirhist_3='/Users/mkrieger/Dropbox/mikeyk-wiki/vimstuff/bundle/pyflakes/pyflakes'
+let g:netrw_dirhist_4='/Users/mkrieger/src/distillery-server/distillery'
+let g:netrw_dirhist_5='/Users/mkrieger/src/distillery-server'
+let g:netrw_dirhist_6='/Users/mkrieger/src'
+let g:netrw_dirhist_7='/Users/mkrieger/src/distillery-server/distillery'
+let g:netrw_dirhist_8='/Users/mkrieger/src/distillery-server/distillery/dogslow'
+let g:netrw_dirhist_9='/Users/mkrieger/src/distillery-server/distillery'

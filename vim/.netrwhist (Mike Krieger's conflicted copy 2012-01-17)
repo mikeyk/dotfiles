@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/mkrieger/src/distillery-server/distillery/conf/shards'
+let g:netrw_dirhist_2='/Users/mkrieger/src/distillery-deploy/ebs'
+let g:netrw_dirhist_3='/Users/mkrieger/src/distillery-server/distillery'
+let g:netrw_dirhist_4='/Users/mkrieger/src/distillery-server/distillery/conf/shards'
+let g:netrw_dirhist_5='/Users/mkrieger/src/distillery-server/distillery'
+let g:netrw_dirhist_6='/Users/mkrieger/src/distillery-server/distillery/about'
+let g:netrw_dirhist_7='/Users/mkrieger/src/Distillery-Server/distillery/accounts/templates/accounts'
+let g:netrw_dirhist_8='/Users/mkrieger/src/distillery-server/distillery'
