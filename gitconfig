@@ -1,0 +1,22 @@
+[user]
+        name = Mike Krieger
+        email = mikeyk@instagram.com
+[gist]
+        private = true
+[core]
+    filemode = true
+    logallrefupdates = true
+    whitespace = space-before-tab, trailing-space
+    quotepath = false
+
+[alias]
+        ci = commit
+        st = status
+        co = checkout
+        df = diff
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+        dft = difftool -y -t opendiff
+[color]
+        diff = auto
+        status = auto
+        branch = auto
