@@ -71,6 +71,7 @@ set expandtab
 set backspace=2 " backspace behaves properly
 
 set background=dark
+se t_Co=16
 colorscheme solarized
 
 map <Leader>p :call ShowPyFlakes()<CR>
