@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/mkrieger/src/instagram-kitchen/cookbooks'
 let g:netrw_dirhist_2='/Users/mkrieger/src/instagram-kitchen/cookbooks/rabbitmq'
 let g:netrw_dirhist_3='/Users/mkrieger/src/instagram-kitchen/.chef'
 let g:netrw_dirhist_4='/Users/mkrieger/src/instagram-kitchen/.chef/plugins'
 let g:netrw_dirhist_5='/Users/mkrieger/src/instagram-kitchen/.chef/plugins/knife'
+let g:netrw_dirhist_6='/Users/mkrieger/src/instagram-kitchen/.chef'
+let g:netrw_dirhist_7='/Users/mkrieger/src/instagram-kitchen/.chef/plugins'
+let g:netrw_dirhist_8='/Users/mkrieger/src/instagram-kitchen/.chef'

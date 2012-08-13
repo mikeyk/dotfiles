@@ -6,7 +6,7 @@ autoload -U ~/.zsh/functions/*(:t)
 
 # Set to the name theme to load.
 # Look in ~/.oh-my-zsh/themes/
-export ZSH_THEME="lukerandall"
+export ZSH_THEME="prose"
 
 export DISABLE_COMPLETION_WAITING_DOTS="true"
 
@@ -43,6 +43,7 @@ alias ec2host='ec2hostcache'
 alias gpr="git pull --rebase origin develop"
 . ~/.ec2/prod
 
+
 #function zle-line-init zle-keymap-select {
     #RPS1="${${KEYMAP/vicmd/-- NORMAL --}/(main|viins)/-- INSERT --}"
         #RPS2=$RPS1
@@ -60,10 +61,10 @@ bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char
 
 export VIRTUALENV_USE_DISTRIBUTE=1
-export PATH=/Users/mkrieger/pyenv/bin:/Users/mkrieger/.bin/:$PATH:~/.ec2
+export PATH=/Users/mkrieger/pyenv/bin:/Users/mkrieger/.bin:$PATH:~/.ec2
 export VIRTUAL_ENV=/Users/mkrieger/pyenv
 
-export JAVA_HOME="/System/Library/Frameworks/JavaVM.framework/Home"
+export JAVA_HOME="$(/usr/libexec/java_home)"
 
 export AWS_CLOUDWATCH_HOME="/usr/local/Cellar/cloud-watch/1.0.12.1/jars"
 export SERVICE_HOME="$AWS_CLOUDWATCH_HOME"
